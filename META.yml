@@ -1,0 +1,16 @@
+name: Decorator
+version: 0.01
+abstract: Abstract base class for Decorator classes
+author: Adam Kennedy<adam@ali.as>
+license: unknown
+distribution_type: module
+build_requires:
+  Test::More: 0.47
+requires:
+  perl: 5.005
+  Scalar::Util: 1.11
+  File::Spec: 0.82
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
